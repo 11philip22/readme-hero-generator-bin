@@ -4,6 +4,12 @@
   "description": "Command-line PNG banner generator matching the hero-generator web app.",
   "license": "MIT",
   "type": "module",
+  "files": [
+    "assets/fonts",
+    "bin",
+    "src",
+    "README.md"
+  ],
   "bin": {
     "hero-generator": "./bin/hero-generator.js"
   },

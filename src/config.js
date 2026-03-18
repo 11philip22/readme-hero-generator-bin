@@ -1,7 +1,7 @@
 export const WIDTH = 1400;
 export const HEIGHT = 280;
 export const DPR = 2;
-export const FONT_FAMILY = "'JetBrains Mono'";
+export const FONT_FAMILY = "'JetBrains Mono', monospace";
 
 export const DEFAULTS = {
   name: "Project Title",

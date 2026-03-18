@@ -1,3 +1,4 @@
+import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { GlobalFonts } from "@napi-rs/canvas";
@@ -12,6 +13,11 @@ export function registerFonts() {
 
   const regular = path.join(FONT_DIR, "JetBrainsMono-Regular.ttf");
   const bold = path.join(FONT_DIR, "JetBrainsMono-Bold.ttf");
+
+  if (!fs.existsSync(regular) || !fs.existsSync(bold)) {
+    registered = true;
+    return;
+  }
 
   const regularOk = GlobalFonts.registerFromPath(regular, "JetBrains Mono");
   const boldOk = GlobalFonts.registerFromPath(bold, "JetBrains Mono");
