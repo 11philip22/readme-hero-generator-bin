@@ -1,0 +1,18 @@
+{
+  "name": "hero-generator-bin",
+  "version": "0.1.0",
+  "description": "Command-line PNG banner generator matching the hero-generator web app.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "hero-generator": "./bin/hero-generator.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "generate-goldens": "node ./scripts/generate-goldens.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.82",
+    "commander": "^14.0.1"
+  }
+}

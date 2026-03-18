@@ -1,0 +1,99 @@
+[
+  {
+    "name": "default-wave-dark",
+    "options": {
+      "seed": "wave-default"
+    }
+  },
+  {
+    "name": "none-light-custom",
+    "options": {
+      "name": "CLI Hero",
+      "subtitle": "Portable preview",
+      "description": "Ship the same banner generator without the browser runtime.",
+      "tags": "node, cli, png",
+      "accent": "#12abef",
+      "bg": "NONE",
+      "mode": "light",
+      "seed": "none-light"
+    }
+  },
+  {
+    "name": "dots-dark",
+    "options": {
+      "name": "Dot Grid",
+      "subtitle": "Matrix mode",
+      "description": "A fixed dotted backdrop to prove the static background path.",
+      "tags": "dots, static, dark",
+      "accent": "CYAN",
+      "bg": "DOTS",
+      "mode": "dark",
+      "seed": "dots-static"
+    }
+  },
+  {
+    "name": "grid-light",
+    "options": {
+      "name": "Gridlines",
+      "subtitle": "Blueprint",
+      "description": "Light mode grid rendering should match the browser version.",
+      "tags": "grid, light, parity",
+      "accent": "AMBER",
+      "bg": "GRID",
+      "mode": "light",
+      "seed": "grid-light"
+    }
+  },
+  {
+    "name": "scan-dark",
+    "options": {
+      "name": "Scanlines",
+      "subtitle": "Analog distortion",
+      "description": "Interrupted line segments create the same scan texture as the site.",
+      "tags": "scan, analog, dark",
+      "accent": "ROSE",
+      "bg": "SCAN",
+      "mode": "dark",
+      "seed": "scan-dark"
+    }
+  },
+  {
+    "name": "void-light",
+    "options": {
+      "name": "Contour Field",
+      "subtitle": "Topographic void",
+      "description": "Marching-squares contours should be deterministic when a seed is supplied.",
+      "tags": "void, contour, light",
+      "accent": "LIME",
+      "bg": "VOID",
+      "mode": "light",
+      "seed": "void-light"
+    }
+  },
+  {
+    "name": "zebra-dark",
+    "options": {
+      "name": "Striped Warp",
+      "subtitle": "Procedural zebra",
+      "description": "Warped stripes exercise the most expensive background renderer.",
+      "tags": "zebra, warp, dark",
+      "accent": "VIOLET",
+      "bg": "ZEBRA",
+      "mode": "dark",
+      "seed": "zebra-dark"
+    }
+  },
+  {
+    "name": "long-copy-empty-fields",
+    "options": {
+      "name": "Extraordinary Hero Generator",
+      "subtitle": "",
+      "description": "A long description should wrap into at most three lines while keeping the bordered layout and centered vertical rhythm intact for command-line generated assets.",
+      "tags": "",
+      "accent": "RED",
+      "bg": "WAVE",
+      "mode": "light",
+      "seed": "long-copy"
+    }
+  }
+]
