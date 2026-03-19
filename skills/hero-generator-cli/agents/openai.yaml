@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hero Generator CLI"
+  short_description: "Generate README banner PNGs"
+  default_prompt: "Use $hero-generator-cli to install the npm package if needed and generate a new README banner PNG with `hero-generator`."
