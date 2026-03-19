@@ -3,19 +3,41 @@
 </p>
 
 <p align="center">
-  <a href="#package-and-install"><img src="https://img.shields.io/badge/npm-pack-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm pack"></a>
+  <a href="https://www.npmjs.com/package/hero-generator-bin"><img src="https://img.shields.io/npm/v/hero-generator-bin?style=for-the-badge&logo=npm&logoColor=white&color=CB3837" alt="npm version"></a>
+  <a href="#installation"><img src="https://img.shields.io/badge/Install%20with-npm%20i%20--g%20hero--generator--bin-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="Install from npm"></a>
   <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-CLI-5FA04E?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js CLI"></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-8B5CF6?style=for-the-badge" alt="MIT License"></a>
-  <a href="#package-and-install"><img src="https://img.shields.io/badge/CLI-Ready-F59E0B?style=for-the-badge&logo=gnubash&logoColor=white" alt="CLI Ready"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-3B82F6?style=for-the-badge" alt="MIT License"></a>
 </p>
 
 <p align="center">
-  <a href="#local-development">Local Development</a> · <a href="#package-and-install">Package And Install</a> · <a href="#options">Options</a> · <a href="#contributing">Contributing</a> · <a href="#support">Support</a> · <a href="#license">License</a>
+  <a href="#installation">Installation</a> · <a href="#quickstart">Quickstart</a> · <a href="#local-development">Local Development</a> · <a href="#options">Options</a> · <a href="#contributing">Contributing</a> · <a href="#support">Support</a> · <a href="#license">License</a>
 </p>
 
 ---
 
 Command-line PNG banner generator for creating README hero images.
+
+## Installation
+
+Install the published CLI from npm:
+
+```bash
+npm install -g hero-generator-bin
+```
+
+## Quickstart
+
+Generate a banner PNG:
+
+```bash
+hero-generator --name "My Project" --subtitle "Command-line PNG banner generator" --description "Generate deterministic README hero images from the terminal." --tags "node.js, cli, png" --accent ORANGE --bg ZEBRA --mode dark --out ./hero-banner.png
+```
+
+Open the CLI help:
+
+```bash
+hero-generator --help
+```
 
 ## Local Development
 
@@ -30,26 +52,6 @@ node ./bin/hero-generator.js --name "My Project" --tags "cli, png, node"
 ```
 
 The command prints the written PNG path on success.
-
-## Package And Install
-
-Create a tarball:
-
-```bash
-npm pack
-```
-
-Install the packed CLI globally:
-
-```bash
-npm install -g ./hero-generator-bin-0.1.0.tgz
-```
-
-Then run it as:
-
-```bash
-hero-generator --name "My Project" --tags "cli, png, node"
-```
 
 ## Options
 
