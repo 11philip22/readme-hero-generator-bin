@@ -7,7 +7,7 @@
   "files": [
     "assets/fonts",
     "bin",
-    "hero-generator-bin-hero-banner.png",
+    "assets/hero-banner.png",
     "src",
     "README.md"
   ],
