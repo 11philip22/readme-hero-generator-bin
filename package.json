@@ -1,6 +1,6 @@
 {
   "name": "hero-generator-bin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Command-line PNG banner generator matching the hero-generator web app.",
   "license": "MIT",
   "type": "module",
