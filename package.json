@@ -14,10 +14,6 @@
   "bin": {
     "hero-generator": "./bin/hero-generator.js"
   },
-  "scripts": {
-    "test": "node --test",
-    "generate-goldens": "node ./scripts/generate-goldens.js"
-  },
   "dependencies": {
     "@napi-rs/canvas": "^0.1.82",
     "commander": "^14.0.1"
